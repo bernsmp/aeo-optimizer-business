@@ -1,0 +1,71 @@
+<!--
+  COMPREHENSIVE SCHEMA FOR THE MOTHERHOOD ANTHOLOGY
+  Add this to your theme header or SEO plugin's "Header Scripts" section
+  This will appear on all pages sitewide
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://themotherhoodanthology.com/#organization",
+      "name": "The Motherhood Anthology",
+      "url": "https://themotherhoodanthology.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://themotherhoodanthology.com/wp-content/uploads/TMAlogo.png",
+        "width": 600,
+        "height": 60
+      },
+      "description": "Photography education platform helping motherhood photographers build profitable, sustainable businesses with 250+ online classes and expert mentorship.",
+      "foundingDate": "2020",
+      "sameAs": [
+        "https://www.instagram.com/themotherhoodanthology/",
+        "https://www.facebook.com/TheMotherhoodAnthology/",
+        "https://open.spotify.com/show/55J5khn6KCMFN7gMaGcRvo",
+        "https://podcasts.apple.com/us/podcast/motherhood-anthology-photography-education-for-a/id1650867787"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "availableLanguage": "English"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://themotherhoodanthology.com/#website",
+      "url": "https://themotherhoodanthology.com/",
+      "name": "The Motherhood Anthology",
+      "description": "Photography education for portrait photographers",
+      "publisher": {
+        "@id": "https://themotherhoodanthology.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://themotherhoodanthology.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "PodcastSeries",
+      "@id": "https://themotherhoodanthology.com/#podcast",
+      "name": "The Motherhood Anthology Podcast",
+      "description": "Weekly business lessons and stories for motherhood photographers",
+      "url": "https://themotherhoodanthology.com/photography-podcast/",
+      "webFeed": "https://feeds.buzzsprout.com/2098854.rss",
+      "sameAs": [
+        "https://podcasts.apple.com/us/podcast/motherhood-anthology-photography-education-for-a/id1650867787",
+        "https://open.spotify.com/show/55J5khn6KCMFN7gMaGcRvo"
+      ],
+      "publisher": {
+        "@id": "https://themotherhoodanthology.com/#organization"
+      }
+    }
+  ]
+}
+</script>
