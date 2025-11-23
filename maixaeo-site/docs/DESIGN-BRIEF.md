@@ -1,6 +1,11 @@
 # Design Brief for maixAEO.com
 ## For Claude Code - Design & Styling
 
+**Design Inspiration:** https://www.getthinusa.com/  
+**Goal:** Create a clean, premium, easy-to-read design similar to getthinusa.com
+
+**See:** `DESIGN-INSPIRATION-ANALYSIS.md` for detailed analysis of what to borrow from getthinusa.com
+
 ---
 
 ## 🎨 Brand Identity
@@ -26,21 +31,31 @@
 
 ### Color Palette
 - **Primary:** Professional blue or dark teal (trust, expertise)
+  - *Note: Analyze getthinusa.com color choices and adapt*
 - **Secondary:** Accent color for CTAs (orange/red for urgency, or green for success)
+  - *Note: Borrow CTA color strategy from getthinusa.com*
 - **Neutral:** Clean whites, light grays for backgrounds
+  - *Note: Match getthinusa.com's background color approach*
 - **Text:** Dark gray/black for readability
+  - *Note: Use similar text color contrast as getthinusa.com*
 
 ### Typography
 - **Headings:** Modern sans-serif (Inter, Poppins, or similar)
+  - *Note: Analyze getthinusa.com font choices and use similar approach*
 - **Body:** Clean, readable sans-serif
+  - *Note: Match getthinusa.com's readability standards*
 - **Code/Technical:** Monospace for technical content
 - **Hierarchy:** Clear H1 → H6 structure
+  - *Note: Borrow typography hierarchy from getthinusa.com*
 
 ### Visual Style
 - **Clean & Minimal** - No clutter, focus on content
+  - *Match getthinusa.com's minimalism level*
 - **Data-Driven** - Statistics prominently displayed
+  - *Use similar emphasis approach as getthinusa.com*
 - **Technical** - Subtle tech elements (grids, lines, code snippets)
 - **Professional** - B2B aesthetic, not consumer flashy
+  - *Achieve same "premium" feel as getthinusa.com*
 
 ---
 

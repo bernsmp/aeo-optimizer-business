@@ -17,6 +17,9 @@
 
 ## 🎨 Your Task: Design & Styling
 
+### Design Inspiration:
+**https://www.getthinusa.com/** - Analyze this site and borrow design principles
+
 ### Primary File to Work On:
 **`src/styles/main.css`**
 
@@ -24,6 +27,7 @@
 - Basic structure exists
 - Needs professional design enhancement
 - See `docs/DESIGN-BRIEF.md` for complete requirements
+- See `docs/DESIGN-INSPIRATION-ANALYSIS.md` for what to borrow from getthinusa.com
 
 ### Key Design Requirements:
 
@@ -116,16 +120,25 @@
 
 ## 🚀 What to Do
 
-1. **Read** `docs/DESIGN-BRIEF.md` for complete requirements
-2. **Enhance** `src/styles/main.css` with professional design
-3. **Focus on:**
-   - Color palette
-   - Typography
-   - Visual hierarchy
-   - Responsive design
-   - Professional B2B aesthetic
+1. **Analyze** https://www.getthinusa.com/ - Visit the site and document design elements
+2. **Read** `docs/DESIGN-INSPIRATION-ANALYSIS.md` - See what to extract from getthinusa.com
+3. **Read** `docs/DESIGN-BRIEF.md` - Complete design requirements
+4. **Extract Design Principles:**
+   - Typography choices (fonts, sizes, hierarchy)
+   - Color palette (primary, background, text, accents)
+   - Layout approach (whitespace, content width, spacing)
+   - Component styles (header, hero, buttons, footer)
+   - Overall aesthetic (premium, clean, readable)
 
-4. **Maintain:**
+5. **Enhance** `src/styles/main.css` with borrowed design elements
+6. **Focus on:**
+   - Matching getthinusa.com's "premium" feel
+   - Achieving same "clean" aesthetic
+   - Ensuring same "easy to read" quality
+   - Maintaining maixAEO brand identity
+   - Keeping technical, professional aesthetic
+
+7. **Maintain:**
    - Semantic HTML structure
    - Schema-friendly markup
    - Accessibility (WCAG)
