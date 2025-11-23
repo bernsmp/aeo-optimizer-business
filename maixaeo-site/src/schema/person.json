@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://maixaeo.com/#person",
+  "name": "Max",
+  "jobTitle": "AEO Expert",
+  "worksFor": {
+    "@id": "https://maixaeo.com/#organization"
+  },
+  "url": "https://maixaeo.com/about",
+  "description": "Answer Engine Optimization expert focused on technical excellence and evidence-based optimization. Creator of the Technical → Visibility → Brand AEO framework.",
+  "knowsAbout": [
+    "Answer Engine Optimization",
+    "AEO",
+    "Technical SEO",
+    "Schema Markup",
+    "AI Crawler Optimization",
+    "Brand Authority"
+  ],
+  "sameAs": [
+    "https://maixaeo.com"
+  ]
+}

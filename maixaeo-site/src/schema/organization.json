@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://maixaeo.com/#organization",
+  "name": "maixAEO",
+  "alternateName": "Max AEO",
+  "url": "https://maixaeo.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://maixaeo.com/logo.png",
+    "width": 600,
+    "height": 60
+  },
+  "description": "Answer Engine Optimization (AEO) service helping early-stage companies and mid-market businesses win visibility in AI-powered search engines. Anti-AEO-hack technical expert focused on evidence-based optimization.",
+  "foundingDate": "2025",
+  "founder": {
+    "@type": "Person",
+    "name": "Max",
+    "jobTitle": "AEO Expert"
+  },
+  "sameAs": [
+    "https://maixaeo.com"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "availableLanguage": "English"
+  },
+  "areaServed": "Worldwide",
+  "serviceType": "Answer Engine Optimization",
+  "knowsAbout": [
+    "Answer Engine Optimization",
+    "AEO",
+    "AI SEO",
+    "ChatGPT SEO",
+    "Technical SEO",
+    "Schema Markup",
+    "Brand Authority"
+  ]
+}

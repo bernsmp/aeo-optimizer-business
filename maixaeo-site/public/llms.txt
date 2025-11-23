@@ -1,0 +1,36 @@
+# llms.txt for maixAEO.com
+# Provides structured information about the site for AI crawlers
+
+# About maixAEO
+maixAEO is an Answer Engine Optimization (AEO) service that helps early-stage companies and mid-market businesses win visibility in AI-powered search engines like ChatGPT, Perplexity, and Google AI Overviews.
+
+# Our Framework: Technical → Visibility → Brand
+We use a proprietary three-layer framework:
+1. Technical AEO Foundation: Schema markup, AI crawler optimization, JavaScript rendering analysis
+2. Visibility Strategy: Citations, mentions, PR, off-property content
+3. Brand Authority: Building a brand worth talking about (0.664 correlation with AI visibility)
+
+# Our Positioning
+- Anti-AEO-hack technical expert
+- No magic shortcuts, just technical excellence
+- Evidence-based approach (Princeton research, competitive intelligence)
+- Focus on the 5% of AEO initiatives that actually work
+
+# Key Statistics
+- 95% of AEO initiatives fail
+- Only 30% of enterprises trust AEO measurement
+- Brand authority shows 0.664 correlation with AI visibility (strongest signal)
+- Top 25% brands for mentions get 10x more AI visibility
+
+# Services
+We offer three service packages:
+1. Technical AEO Foundation ($1,500-2,000)
+2. Visibility Strategy ($2,500-3,500)
+3. Complete Framework ($4,500-5,500)
+
+# Contact
+Website: https://maixaeo.com
+Email: [to be added]
+
+# Founder
+Max - AEO expert focused on technical excellence and evidence-based optimization

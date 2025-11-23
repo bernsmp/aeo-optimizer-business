@@ -2,8 +2,9 @@
 ## "Start Now, Launch Strategically"
 
 **Domain:** maixAEO.com ✅ Secured
-**Positioning:** Anti-GEO-hack technical expert
+**Positioning:** Anti-AEO-hack technical expert
 **Framework:** Technical → Visibility → Brand
+**Messaging:** Use "AEO" (not "GEO") since it's in our brand name
 
 ---
 
@@ -23,7 +24,7 @@
 
 ### 3. You Have Enough Foundation
 - ✅ Framework: Technical → Visibility → Brand
-- ✅ Positioning: "Anti-GEO-hack technical expert"
+- ✅ Positioning: "Anti-AEO-hack technical expert"
 - ✅ Competitive intelligence
 - ✅ Content strategy
 - ✅ Domain name secured
@@ -44,8 +45,8 @@
 **Purpose:** Establish positioning immediately
 
 **Key Elements:**
-- Hero: "No Magic GEO Hacks. Just Technical Excellence That Works."
-- Subheadline: "95% of GEO Initiatives Fail. We Focus on the 5% That Works."
+- Hero: "No Magic AEO Hacks. Just Technical Excellence That Works."
+- Subheadline: "95% of AEO Initiatives Fail. We Focus on the 5% That Works."
 - Framework overview: Technical → Visibility → Brand (visual)
 - Clear value prop: "Early-stage companies can win visibility in 2 days"
 - CTA: "Get Started" / "See Our Framework"
@@ -79,7 +80,7 @@
 **Purpose:** Build trust, establish expertise
 
 **Content:**
-- Your story: Why you're the "anti-GEO-hack" expert
+- Your story: Why you're the "anti-AEO-hack" expert
 - Framework origin story
 - Evidence-based approach (Princeton study, competitive research)
 - Personal brand: Max + AI + AEO = maixAEO
@@ -309,13 +310,13 @@
 ## 🎨 Messaging to Use Everywhere
 
 ### Hero Messaging:
-**"No Magic GEO Hacks. Just Technical Excellence That Works."**
+**"No Magic AEO Hacks. Just Technical Excellence That Works."**
 
 ### Subheadline:
-**"95% of GEO Initiatives Fail. We Focus on the 5% That Works."**
+**"95% of AEO Initiatives Fail. We Focus on the 5% That Works."**
 
 ### About Page:
-"While the GEO industry chases shortcuts and sells 'magic hacks,' we're building the sustainable alternative. Based on Princeton research showing 95% of GEO initiatives fail, we focus on the 5% that works: technical foundations, brand authority, and evidence-based optimization."
+"While the AEO industry chases shortcuts and sells 'magic hacks,' we're building the sustainable alternative. Based on Princeton research showing 95% of AEO initiatives fail, we focus on the 5% that works: technical foundations, brand authority, and evidence-based optimization."
 
 ### Framework Explanation:
 "Our three-layer framework addresses what actually works: Technical Foundation (JavaScript rendering, schema, AI crawlers), Visibility Strategy (citations, mentions, PR), and Brand Authority (the 0.664 correlation that matters most)."
