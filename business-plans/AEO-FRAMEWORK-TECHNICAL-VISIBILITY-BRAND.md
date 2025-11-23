@@ -80,6 +80,42 @@
 
 **✅ SEO Benefit:** Long-tail keyword coverage, featured snippets
 
+**7. Comparison Pages** *(NEW - Essential Content Type)*
+- Create comprehensive comparison pages (vs competitors, alternatives)
+- Answer "X vs Y" queries that AI frequently handles
+- Include detailed feature comparisons, pricing, use cases
+- Update regularly as market evolves
+- Essential for competitive visibility in AI search
+
+**✅ SEO Benefit:** Captures comparison queries, featured snippets
+
+**8. Q&A Format Content** *(NEW - Based on Industry Research)*
+- Structure content in Q&A format
+- Answer multiple related questions on single pages
+- Use FAQ schema markup
+- Cover all variations and follow-up questions
+- Especially effective for help center content
+
+**✅ SEO Benefit:** FAQ rich results, featured snippets
+
+**9. Prompt Tracking & Research** *(NEW - Based on Industry Research)*
+- Track prompts (not just keywords) that lead to citations
+- Identify which prompts mention your brand
+- Research prompt patterns and variations
+- Monitor prompt volume and trends
+- Use prompt insights to guide content creation
+
+**✅ SEO Benefit:** Better content targeting, long-tail coverage
+
+**10. Content Velocity Strategy** *(NEW - Based on Industry Research)*
+- Prioritize fast content creation and publishing
+- AI can index new content in 2 days (vs weeks for Google)
+- Create content quickly to capture emerging prompts
+- Early stage companies can win immediately with velocity
+- Focus on speed without sacrificing quality
+
+**✅ SEO Benefit:** Faster indexing, early mover advantage
+
 ### Why This Layer Matters:
 
 - **Concrete Value:** Real, measurable improvements
@@ -93,6 +129,8 @@
 - Technical improvements implemented
 - Before/after comparison
 - SEO impact analysis
+- Prompt tracking setup
+- Content velocity recommendations
 
 ---
 
@@ -142,7 +180,26 @@
 - Guest posting on authoritative sites
 - Industry publication contributions
 
-**7. Mention Tracking**
+**7. Off-Property Content Strategy** *(NEW - Based on Industry Research)*
+- Create content on partner sites, affiliates, guest posts
+- Build presence across multiple authoritative domains
+- Distribute content beyond your own website
+- Scale visibility through off-property mentions
+- Especially important for competitive markets
+
+**Why It Works:** Multiple citation sources increase AI visibility
+
+**8. Visibility Tracking (Offense/Defense)** *(NEW - Based on Industry Research)*
+- **Offense Strategy:** Track where you have low visibility (gaps to fill)
+- **Defense Strategy:** Track where you have high visibility (maintain)
+- Monitor "share of voice" across different LLMs
+- Track visibility by prompt category
+- Measure visibility growth over time
+- Identify competitive threats and opportunities
+
+**Why It Works:** Data-driven visibility strategy, proactive management
+
+**9. Mention Tracking**
 - Monitor where you're mentioned
 - Track citations across platforms
 - Identify citation opportunities
@@ -156,9 +213,11 @@
 
 ### Deliverable:
 **Visibility Strategy & Implementation Plan**
-- Current visibility audit
+- Current visibility audit (offense/defense analysis)
 - PR/media strategy
 - Citation opportunities identified
+- Off-property content strategy
+- Visibility tracking setup
 - 90-day visibility roadmap
 
 ---
@@ -254,9 +313,15 @@ AEO Results (Natural Outcome)
 - Technical SEO foundation
 - Help center optimization (subdirectory, cross-linking)
 - Long-tail question content strategy
+- Comparison page strategy
+- Q&A format content guidance
+- Prompt tracking setup
+- Content velocity recommendations
 - Before/after report
 
 **Best For:** Companies with strong brand, need technical foundation, early stage companies
+
+**Velocity Advantage:** Early stage companies can win immediately with fast content creation (AI indexes in 2 days)
 
 ---
 
@@ -268,11 +333,15 @@ AEO Results (Natural Outcome)
 - Reddit authentic engagement strategy
 - PR/media strategy
 - Affiliate partnership guidance
+- Off-property content strategy
+- Visibility tracking (offense/defense analysis)
 - Citation opportunities
 - Mention tracking setup
 - 90-day visibility roadmap
 
 **Best For:** Companies ready to build visibility, especially early stage companies
+
+**Visibility Tracking:** Offense (low visibility gaps) and Defense (high visibility maintenance) strategies
 
 ---
 

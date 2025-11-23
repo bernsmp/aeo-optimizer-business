@@ -48,10 +48,15 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 - ✅ Technical SEO foundation
 - ✅ Help center optimization (subdirectory, cross-linking, fill tail)
 - ✅ Long-tail question content strategy (25-word queries)
+- ✅ Comparison page strategy (essential content type)
+- ✅ Q&A format content guidance
+- ✅ Prompt tracking setup
+- ✅ Content velocity recommendations (AI indexes in 2 days)
 - ✅ Before/after technical audit report
 
 **SEO Benefit:** All technical improvements help traditional SEO too  
-**Early Stage Advantage:** Can win immediately with long-tail questions
+**Early Stage Advantage:** Can win immediately with long-tail questions  
+**Velocity Advantage:** AI indexes new content in 2 days (vs weeks for Google)
 
 **Best For:** Companies with strong brand, need technical foundation, early stage companies
 
@@ -67,6 +72,8 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 - ✅ Reddit authentic engagement strategy (find citation threads, be authentic)
 - ✅ PR/media strategy development
 - ✅ Affiliate partnership guidance (Dotdash/Meredith, Forbes, TechRadar)
+- ✅ Off-property content strategy (NEW)
+- ✅ Visibility tracking - offense/defense analysis (NEW)
 - ✅ Citation opportunities identified
 - ✅ Mention tracking setup
 - ✅ 90-day visibility roadmap
@@ -148,19 +155,27 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 - Technical SEO foundation
 - Help center optimization (NEW)
 - Long-tail question content (25-word queries)
+- Comparison pages (NEW - Essential)
+- Q&A format content (NEW)
+- Prompt tracking (NEW)
+- Content velocity strategy (NEW - AI indexes in 2 days)
 - ✅ **Helps both AEO AND SEO**
 - ✅ **Early stage companies can win immediately**
+- ✅ **Velocity advantage: Fast content = fast results**
 
 **"Layer 2: Visibility Strategy"**
 - YouTube/Vimeo videos (PRIORITY - especially B2B)
 - Reddit authentic engagement (PRIORITY)
 - PR and media mentions
 - Affiliate partnerships (Dotdash/Meredith, Forbes)
+- Off-property content strategy (NEW)
+- Visibility tracking - offense/defense (NEW)
 - Authoritative citations
 - Content distribution
 - Mention tracking
 - ✅ **Gets you talked about**
 - ✅ **Citation priority: YouTube/Reddit first**
+- ✅ **Data-driven visibility strategy**
 
 **"Layer 3: Brand Strategy"**
 - Brand positioning audit
@@ -287,7 +302,7 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 
 ### "How long until I see results?"
 
-**"Technical improvements are immediate. Visibility takes 30-90 days (YouTube/Reddit can work faster). Brand strength is long-term. Early stage companies can win the long-tail immediately. AEO happens naturally as you build all three layers."**
+**"Technical improvements are immediate. Visibility takes 30-90 days (YouTube/Reddit can work faster). Brand strength is long-term. Early stage companies can win the long-tail immediately. Content velocity advantage: AI indexes new content in 2 days (vs weeks for Google), so fast content creation = fast results. AEO happens naturally as you build all three layers."**
 
 ---
 
@@ -299,7 +314,7 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 
 ### "Can early stage companies really win at AEO?"
 
-**"Yes! Unlike SEO which requires domain authority, early stage companies can win at AEO immediately. You can get cited tomorrow and start showing up. Focus on long-tail questions (25-word queries) and YouTube/Reddit citations - these work immediately."**
+**"Yes! Unlike SEO which requires domain authority, early stage companies can win at AEO immediately. You can get cited tomorrow and start showing up. Focus on long-tail questions (25-word queries) and YouTube/Reddit citations - these work immediately. Plus, AI indexes new content in just 2 days (vs weeks for Google), so content velocity gives you a huge advantage."**
 
 ---
 

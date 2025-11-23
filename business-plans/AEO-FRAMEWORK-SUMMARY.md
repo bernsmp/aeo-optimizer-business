@@ -17,6 +17,10 @@
 - Technical SEO foundation
 - Help center optimization (NEW)
 - Long-tail question content (NEW)
+- Comparison pages (NEW - Essential)
+- Q&A format content (NEW)
+- Prompt tracking (NEW)
+- Content velocity strategy (NEW)
 
 **✅ Dual Benefit:** Helps both AEO AND SEO  
 **✅ Early Stage Advantage:** Can win immediately with long-tail  
@@ -31,6 +35,8 @@
 - Reddit authentic engagement (PRIORITY)
 - PR & media mentions
 - Affiliate partnerships
+- Off-property content strategy (NEW)
+- Visibility tracking - offense/defense (NEW)
 - Authoritative citations
 - Content distribution
 - Mention tracking
