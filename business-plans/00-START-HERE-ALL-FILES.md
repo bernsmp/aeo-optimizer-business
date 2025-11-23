@@ -23,9 +23,21 @@ All files are in this folder. Use **Cmd+P** (Mac) or **Ctrl+P** (Windows) and ty
 4. **`GEMINI-RESEARCH-PROMPT.md`** ⭐ **For building knowledge base**
    - Deep research prompts for Gemini
 
+5. **`GEO-PLATFORM-COMPETITIVE-INTELLIGENCE.md`** ⭐ **NEW - Competitive Research**
+   - Complete competitive analysis of GEO platforms
+   - Failed tactics database with evidence
+   - Positioning gaps analysis
+   - Comparison page content seeds
+
+6. **`COMPETITIVE-INTELLIGENCE-CONTENT-STRATEGY.md`** ⭐ **NEW - Content Strategy**
+   - Actionable content strategy based on competitive research
+   - Priority content pieces ranked
+   - Messaging templates
+   - SEO/AEO optimization strategy
+
 ---
 
-## 📚 COMPLETE FILE LIST (36 files total)
+## 📚 COMPLETE FILE LIST (38 files total)
 
 ### Framework Documents (5)
 - AEO-FRAMEWORK-TECHNICAL-VISIBILITY-BRAND.md
@@ -34,12 +46,14 @@ All files are in this folder. Use **Cmd+P** (Mac) or **Ctrl+P** (Windows) and ty
 - FRAMEWORK-UPDATES-FINAL.md
 - FRAMEWORK-UPDATES-APPLIED.md
 
-### Research & Insights (5)
+### Research & Insights (7)
 - RESEARCH-SUMMARY-ALL-SOURCES.md
 - RESEARCH-SUMMARY-KEY-FINDINGS.md
 - INDUSTRY-RESEARCH-SYNTHESIS.md
 - AEO-INSIGHTS-FROM-ETHAN-SMITH.md
 - AEO-INSIGHTS-FROM-NICK-LAFFERTY.md
+- GEO-PLATFORM-COMPETITIVE-INTELLIGENCE.md ⭐ **NEW**
+- COMPETITIVE-INTELLIGENCE-CONTENT-STRATEGY.md ⭐ **NEW**
 
 ### Research Tools (4)
 - GEMINI-RESEARCH-PROMPT.md
@@ -94,6 +108,20 @@ Type in Quick Open: `business-plans/AEO-FRAMEWORK-TECHNICAL-VISIBILITY-BRAND.md`
 
 ## ✅ Files Confirmed Present
 
-All 36 files exist in `/workspace/business-plans/`
+All 38 files exist in `/workspace/business-plans/`
 
 If you can't see them in the file explorer, use Quick Open (`Cmd+P`) - it will find them!
+
+---
+
+## 🆕 Latest Additions
+
+**Competitive Intelligence Research (2025):**
+- `GEO-PLATFORM-COMPETITIVE-INTELLIGENCE.md` - Complete competitive analysis
+- `COMPETITIVE-INTELLIGENCE-CONTENT-STRATEGY.md` - Actionable content strategy
+
+**Key Insights:**
+- 95% of GEO initiatives fail
+- Only 30% trust measurement
+- Brand authority = 0.664 correlation (strongest signal)
+- Perfect alignment with your "anti-GEO-hack" positioning
