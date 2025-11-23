@@ -4,8 +4,9 @@
 
 This document synthesizes insights from:
 1. **Ethan Smith (Graphite)** - Lenny's Podcast (Nov 2024)
-2. **Section/Lorelight** - "GEO isn't a strategy, it's a reflection of brand strength"
-3. **Your Framework** - Technical → Visibility → Brand
+2. **Nick Lafferty (Profound)** - Hypergrowth Leadership Podcast
+3. **Section/Lorelight** - "GEO isn't a strategy, it's a reflection of brand strength"
+4. **Your Framework** - Technical → Visibility → Brand
 
 ---
 
@@ -35,8 +36,14 @@ This document synthesizes insights from:
 
 5. **Conversion rates are higher**
    - Ethan: "6x conversion rate difference" (Webflow data)
+   - Nick: "15% of leads from ChatGPT" (Profound), "10% of signups" (Vercel)
    - More qualified leads from LLM traffic
    - **Your value prop:** ✅ Validated - higher quality traffic
+
+6. **Velocity matters (HUGE)**
+   - Nick: "ChatGPT can pick up new content within 2 days" (vs weeks/months for Google)
+   - Early stage can win quickly
+   - **Your positioning:** ✅ Validated - speed advantage
 
 ---
 
