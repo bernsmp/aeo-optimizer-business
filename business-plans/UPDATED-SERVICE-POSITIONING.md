@@ -46,11 +46,14 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 - ✅ AI crawler optimization (robots.txt, llms.txt)
 - ✅ Content structure optimization
 - ✅ Technical SEO foundation
+- ✅ Help center optimization (subdirectory, cross-linking, fill tail)
+- ✅ Long-tail question content strategy (25-word queries)
 - ✅ Before/after technical audit report
 
-**SEO Benefit:** All technical improvements help traditional SEO too
+**SEO Benefit:** All technical improvements help traditional SEO too  
+**Early Stage Advantage:** Can win immediately with long-tail questions
 
-**Best For:** Companies with strong brand, need technical foundation
+**Best For:** Companies with strong brand, need technical foundation, early stage companies
 
 ---
 
@@ -60,12 +63,15 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 
 **What You Get:**
 - ✅ Everything in Package 1
+- ✅ YouTube/Vimeo video strategy (prioritized - especially B2B)
+- ✅ Reddit authentic engagement strategy (find citation threads, be authentic)
 - ✅ PR/media strategy development
+- ✅ Affiliate partnership guidance (Dotdash/Meredith, Forbes, TechRadar)
 - ✅ Citation opportunities identified
 - ✅ Mention tracking setup
 - ✅ 90-day visibility roadmap
 
-**Best For:** Companies ready to build visibility and get mentioned
+**Best For:** Companies ready to build visibility, especially early stage companies
 
 ---
 
@@ -140,14 +146,21 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 - AI crawler optimization
 - Content structure optimization
 - Technical SEO foundation
+- Help center optimization (NEW)
+- Long-tail question content (25-word queries)
 - ✅ **Helps both AEO AND SEO**
+- ✅ **Early stage companies can win immediately**
 
 **"Layer 2: Visibility Strategy"**
+- YouTube/Vimeo videos (PRIORITY - especially B2B)
+- Reddit authentic engagement (PRIORITY)
 - PR and media mentions
+- Affiliate partnerships (Dotdash/Meredith, Forbes)
 - Authoritative citations
 - Content distribution
 - Mention tracking
 - ✅ **Gets you talked about**
+- ✅ **Citation priority: YouTube/Reddit first**
 
 **"Layer 3: Brand Strategy"**
 - Brand positioning audit
@@ -274,7 +287,19 @@ We strengthen your brand positioning and story. Because AEO is ultimately a refl
 
 ### "How long until I see results?"
 
-**"Technical improvements are immediate. Visibility takes 30-90 days. Brand strength is long-term. AEO happens naturally as you build all three layers."**
+**"Technical improvements are immediate. Visibility takes 30-90 days (YouTube/Reddit can work faster). Brand strength is long-term. Early stage companies can win the long-tail immediately. AEO happens naturally as you build all three layers."**
+
+---
+
+### "Why YouTube/Vimeo and Reddit?"
+
+**"Based on industry research, YouTube/Vimeo videos are heavily cited by AI, especially for B2B topics where there's less competition. Reddit is one of the most cited sources, but spam gets banned - authentic engagement works. Even 5 authentic Reddit comments can make a difference."**
+
+---
+
+### "Can early stage companies really win at AEO?"
+
+**"Yes! Unlike SEO which requires domain authority, early stage companies can win at AEO immediately. You can get cited tomorrow and start showing up. Focus on long-tail questions (25-word queries) and YouTube/Reddit citations - these work immediately."**
 
 ---
 

@@ -15,8 +15,11 @@
 - AI crawler optimization (robots.txt, llms.txt)
 - Content structure optimization
 - Technical SEO foundation
+- Help center optimization (NEW)
+- Long-tail question content (NEW)
 
 **✅ Dual Benefit:** Helps both AEO AND SEO  
+**✅ Early Stage Advantage:** Can win immediately with long-tail  
 **Price:** $1,500-2,000
 
 ---
@@ -24,12 +27,16 @@
 ### 👁️ Layer 2: Visibility Strategy
 **What:** Getting mentioned, cited, and talked about  
 **Includes:**
+- YouTube/Vimeo videos (PRIORITY - especially B2B)
+- Reddit authentic engagement (PRIORITY)
 - PR & media mentions
+- Affiliate partnerships
 - Authoritative citations
 - Content distribution
 - Mention tracking
 
 **✅ Why It Matters:** AI cites what the world already knows  
+**✅ Citation Priority:** YouTube/Reddit first, then affiliates/PR  
 **Price:** $2,500-3,500 (includes Layer 1)
 
 ---

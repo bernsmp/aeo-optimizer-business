@@ -62,6 +62,24 @@
 
 **✅ SEO Benefit:** Core SEO improvements
 
+**5. Help Center Optimization** *(NEW - Based on Industry Research)*
+- Move help center from subdomain to subdirectory
+- Cross-linking between help articles
+- Fill in the tail (obscure use cases, follow-up questions)
+- Answer specific feature/integration questions
+- Community-driven Q&A (where applicable)
+
+**✅ SEO Benefit:** Better internal linking, more indexed pages
+
+**6. Long-Tail Question Content** *(NEW - Based on Industry Research)*
+- Focus on 25-word queries (vs 6-word SEO queries)
+- Answer ALL follow-up questions on each page
+- Create content for specific use cases, features, integrations
+- Target questions that don't exist in traditional search
+- Early stage companies can win the tail immediately
+
+**✅ SEO Benefit:** Long-tail keyword coverage, featured snippets
+
 ### Why This Layer Matters:
 
 - **Concrete Value:** Real, measurable improvements
@@ -82,25 +100,49 @@
 
 ### What It Includes:
 
-**1. PR & Media Mentions**
+**1. YouTube/Vimeo Video Strategy** *(PRIORITY - Based on Industry Research)*
+- Create videos for high-value, specific topics (especially B2B)
+- Less competition in B2B video space
+- Easy to create, no community moderation
+- Target long-tail questions and use cases
+- Especially effective for early stage companies
+
+**Why It Works:** Videos are heavily cited by AI, especially for specific B2B topics
+
+**2. Reddit Authentic Engagement** *(PRIORITY - Based on Industry Research)*
+- Find threads that are part of citations you want to show up in
+- Be authentic: "This is my name, this is where I work, here's useful information"
+- Say who you are, where you work
+- Give useful, valuable answers
+- Don't spam (gets banned)
+- Even 5 authentic comments can work
+
+**Why It Works:** Reddit is one of the most cited sources in LLMs, but spam gets banned
+
+**3. PR & Media Mentions**
 - Press release strategy
 - Media outreach
 - Industry publication features
 - Thought leadership placement
 
-**2. Authoritative Citations**
+**4. Affiliate Partnerships**
+- Dotdash/Meredith (Good Housekeeping, AllRecipes, Investopedia)
+- Forbes, TechRadar (for B2B)
+- Industry-specific publications
+- Paid mentions (if budget allows)
+
+**5. Authoritative Citations**
 - Getting cited by authoritative sites
 - Wikipedia mentions (if applicable)
 - Industry directories
 - Expert roundups
 
-**3. Content Distribution**
+**6. Content Distribution**
 - Publishing on multiple platforms
 - Guest posting on authoritative sites
 - Industry publication contributions
-- Reddit/community engagement (where relevant)
 
-**4. Mention Tracking**
+**7. Mention Tracking**
 - Monitor where you're mentioned
 - Track citations across platforms
 - Identify citation opportunities
@@ -210,9 +252,11 @@ AEO Results (Natural Outcome)
 - AI crawler optimization
 - Content structure optimization
 - Technical SEO foundation
+- Help center optimization (subdirectory, cross-linking)
+- Long-tail question content strategy
 - Before/after report
 
-**Best For:** Companies with strong brand, need technical foundation
+**Best For:** Companies with strong brand, need technical foundation, early stage companies
 
 ---
 
@@ -220,12 +264,15 @@ AEO Results (Natural Outcome)
 **Price:** $2,500-3,500  
 **Includes:**
 - Everything in Package 1
+- YouTube/Vimeo video strategy (prioritized)
+- Reddit authentic engagement strategy
 - PR/media strategy
+- Affiliate partnership guidance
 - Citation opportunities
 - Mention tracking setup
 - 90-day visibility roadmap
 
-**Best For:** Companies ready to build visibility
+**Best For:** Companies ready to build visibility, especially early stage companies
 
 ---
 
