@@ -1,0 +1,52 @@
+Here is the JSON-LD Service schema markup for Louie Bernstein's fractional sales leadership and sales consulting services:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Fractional Sales Leadership",
+  "description": "Louie Bernstein provides fractional sales leadership and sales consulting services to organize, optimize, and train sales teams. He helps drive sales results for clients.",
+  "serviceType": "Sales consulting",
+  "provider": {
+    "@type": "Person",
+    "name": "Louie Bernstein"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "US"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Sales Consulting Services",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Fractional Sales Leadership",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sales team organization and optimization"
+            }
+          },
+          {
+            "@type": "Offer", 
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sales team training"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service", 
+              "name": "Outbound sales scripts and emails"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+</script>

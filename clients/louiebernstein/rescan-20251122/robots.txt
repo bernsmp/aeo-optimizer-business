@@ -1,0 +1,33 @@
+# robots.txt for Louie Bernstein
+# Optimized for AI crawlers (ChatGPT, Claude, Perplexity, Google AI)
+
+User-agent: *
+Allow: /
+
+# AI Crawlers - Explicitly allow
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Sitemap
+Sitemap: http://louiebernstein.com/sitemap.xml

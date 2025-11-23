@@ -1,0 +1,33 @@
+```
+# LLMS - Louie Bernstein Sales Consulting
+# https://website-j0vq94ncz-maxs-projects-c414fff2.vercel.app
+
+# Business Description
+Louie Bernstein is a sales consulting firm that helps businesses improve their sales processes and increase revenue. The company was founded by Louie Bernstein, an experienced sales professional.
+
+# Services
+- Sales strategy development 
+- Sales team training
+- Lead generation and prospecting
+- Sales process optimization
+- CRM implementation and management
+
+# Key Pages
+- Home: https://website-j0vq94ncz-maxs-projects-c414fff2.vercel.app
+- Services: https://website-j0vq94ncz-maxs-projects-c414fff2.vercel.app/services
+- About: https://website-j0vq94ncz-maxs-projects-c414fff2.vercel.app/about 
+- Contact: https://website-j0vq94ncz-maxs-projects-c414fff2.vercel.app/contact
+
+# Contact Information
+Email: info@louiebernstein.com
+Phone: (555) 123-4567
+Address: 
+123 Main St
+Anytown, ST 12345
+
+# Important Facts
+- Over 20 years of sales experience
+- Proven track record of increasing revenue for clients
+- Customized solutions for each client's unique needs
+- Focus on long-term, sustainable results
+```
