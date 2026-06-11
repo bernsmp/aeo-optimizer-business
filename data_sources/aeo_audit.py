@@ -377,38 +377,39 @@ def _build_full_report(
             lines.append("```")
             lines.append("")
 
-    # Package recommendation
+    # Focus recommendation
     lines.extend([
         "---",
         "",
-        "## Recommended Next Steps",
+        "## Recommended Focus",
         "",
     ])
 
     if composite < 40:
-        lines.append("**Recommended: Full AEO Foundation Package (Layer 1)**")
+        lines.append("**Foundational fixes first.**")
         lines.append("")
-        lines.append("This site needs foundational work across schema markup, FAQ content, and AI crawler optimization. We recommend the full Layer 1 implementation:")
+        lines.append("The site needs baseline work across schema markup, answer content, and AI crawler access before anything else will move the needle:")
         lines.append("")
         lines.append("- Schema markup: Organization/LocalBusiness, FAQPage, Service")
-        lines.append("- llms.txt and robots.txt optimization")
-        lines.append("- FAQ page creation with proper schema")
-        lines.append("- Content restructuring for AI readability")
+        lines.append("- robots.txt three-tier crawler config (and CDN-level access check)")
+        lines.append("- Q&A content answering real customer questions")
+        lines.append("- Content restructuring for AI extraction (answer-first, clean hierarchy)")
+        lines.append("- Machine-readable freshness signals (dateModified in schema)")
     elif composite < 65:
-        lines.append("**Recommended: Targeted AEO Fixes**")
+        lines.append("**Targeted fixes.**")
         lines.append("")
-        lines.append("The foundation exists but has specific gaps. We recommend targeted fixes:")
+        lines.append("The foundation exists but has specific gaps:")
         lines.append("")
         for rec in recs[:5]:
             lines.append(f"- {rec}")
     else:
-        lines.append("**Recommended: Visibility & Monitoring**")
+        lines.append("**Off-site visibility and monitoring.**")
         lines.append("")
-        lines.append("Technical foundation is solid. Focus shifts to Layer 2 (Visibility Strategy):")
+        lines.append("Technical foundation is solid. The remaining gains are off-site:")
         lines.append("")
-        lines.append("- Third-party mention building")
-        lines.append("- Citation monitoring")
-        lines.append("- Content distribution for AI training data")
+        lines.append("- Third-party mentions (Reddit, reviews, press, YouTube)")
+        lines.append("- Ongoing citation monitoring across engines")
+        lines.append("- Fresh answer content targeting the queries AI users actually ask")
 
     return "\n".join(lines)
 

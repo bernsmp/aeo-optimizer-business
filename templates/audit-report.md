@@ -36,8 +36,8 @@ Overall AEO Score: {{score}}/100
 4. {{fix_4}}
 5. {{fix_5}}
 
-## Recommended Package
-{{package_recommendation}}
+## Recommended Focus
+{{focus_recommendation}}
 
 ## Implementation Timeline
 {{timeline}}

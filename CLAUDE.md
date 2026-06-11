@@ -1,6 +1,6 @@
 # AEO Machine -- Claude Code Workspace
 
-Answer Engine Optimization workspace. We help businesses become visible to ChatGPT, Perplexity, Google AI Overviews, and Gemini.
+Answer Engine Optimization workspace: tooling to analyze and optimize sites for visibility in ChatGPT, Perplexity, Google AI Overviews, and Gemini. This is a working toolkit, not a productized offering.
 
 Built on a three-layer framework: Technical Foundation -> Visibility Strategy -> Brand Strategy.
 
@@ -177,16 +177,16 @@ Step-by-step for running a new client engagement.
 
 ## Three-Layer Framework
 
-### Layer 1: Technical Foundation ($1,500-2,000)
-Schema markup (Organization, FAQ, Service, HowTo, Event). robots.txt configured for AI crawlers. llms.txt file. Content restructured for AI readability. FAQ page optimization.
+### Layer 1: Technical Foundation
+Schema markup (Organization, FAQ, Service, HowTo, Event). robots.txt configured for AI crawlers (three tiers) plus CDN-level access check. llms.txt file. Content restructured for AI readability. Q&A content. Freshness signals.
 
-This is what the AEO Machine automates. Most clients start and stay here.
+This is what the tooling automates. Most sites need this first.
 
-### Layer 2: Visibility Strategy ($2,500-3,500)
-YouTube presence and optimization. Reddit strategy. PR mentions and backlinks. Affiliate and partner citations. Content distribution across platforms that AI models train on and reference.
+### Layer 2: Visibility Strategy
+YouTube presence and optimization. Reddit strategy. PR mentions and unlinked brand citations. Review platforms. Content distribution across platforms that AI models train on and reference. The biggest lever as of 2026.
 
-### Layer 3: Brand Strategy ($4,000-5,500)
-Brand positioning and differentiation. Story framework development. Thought leadership content strategy. Building the kind of brand authority that makes AI models cite you by default.
+### Layer 3: Brand Strategy
+Brand positioning and differentiation. Entity consistency. Story framework development. Thought leadership content strategy. Building the kind of brand authority that makes AI models cite a site by default.
 
 ---
 
