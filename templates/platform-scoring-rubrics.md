@@ -4,6 +4,8 @@ Each AI platform selects and cites sources differently. Score each one separatel
 
 Source: Adapted from zubair-trabzada/geo-seo-claude platform optimizer + AEO Machine research.
 
+Stats refreshed 2026-06-11. Citation-share numbers are point-in-time and VOLATILE (Reddit's ChatGPT share once swung from ~60% to ~10% in two weeks). Re-verify quarterly before quoting in client deliverables.
+
 ---
 
 ## Google AI Overviews (AIO)
@@ -34,7 +36,7 @@ Source: Adapted from zubair-trabzada/geo-seo-claude platform optimizer + AEO Mac
 
 ## ChatGPT (Web Search)
 
-**How it selects sources:** Entity recognition-heavy. Wikipedia = 47.9% of citations. Reddit = 11.3%. Prefers authoritative, well-structured pages. Only 11% overlap with Google AIO citations.
+**How it selects sources:** Retrieves primarily through Bing's index plus OAI-SearchBot fresh crawls (Bing indexation is a prerequisite). Entity recognition-heavy. Wikipedia ~13.2% and Reddit ~12.0% of US citations, no other domain above 3% (5W Research, May 2026). Prefers authoritative, well-structured pages. Only ~11% citation overlap with other engines. Cites only ~15% of pages it retrieves.
 
 ### Scoring Rubric (0-100)
 
@@ -61,7 +63,7 @@ Source: Adapted from zubair-trabzada/geo-seo-claude platform optimizer + AEO Mac
 
 ## Perplexity AI
 
-**How it selects sources:** Reddit = 46.7% of citations. Prioritizes recent, discussion-based content. Aggressive crawler (PerplexityBot).
+**How it selects sources:** Reddit-dominant (~47% of top-10 citations in one 2026 audit; volatile). Prioritizes recent, discussion-based content. Aggressive crawler (PerplexityBot). Comet browser + publisher program now pays on visits, citations, and agent usage.
 
 ### Scoring Rubric (0-100)
 
@@ -78,7 +80,7 @@ Source: Adapted from zubair-trabzada/geo-seo-claude platform optimizer + AEO Mac
 | Technical accessibility | 5 | Fast load, clean HTML, no heavy JS rendering |
 
 ### Priority Actions
-1. Reddit is 46.7% of Perplexity citations. This is your #1 lever.
+1. Reddit dominates Perplexity citations (~47% of top-10 in 2026 audits). This is your #1 lever.
 2. Allow PerplexityBot in robots.txt
 3. Create comparison content ("X vs Y", "best X for Y")
 4. Keep content fresh (update dates, add new data quarterly)
@@ -150,10 +152,13 @@ Source: Adapted from zubair-trabzada/geo-seo-claude platform optimizer + AEO Mac
 
 | If you want to rank on... | Focus on... |
 |---------------------------|-------------|
-| Google AIO | Traditional SEO + structured data |
-| ChatGPT | Wikipedia + entity clarity + Reddit |
-| Perplexity | Reddit (46.7%!) + recency + discussion content |
+| Google AIO / AI Mode | Traditional SEO + structured data (organic rank is the doorway) |
+| ChatGPT | Wikipedia + entity clarity + Reddit + Bing indexation |
+| Perplexity | Reddit (dominant source) + recency + discussion content |
 | Gemini | Google ecosystem (GBP, YouTube, Knowledge Panel) |
 | Bing Copilot | Bing Webmaster Tools + LinkedIn + Bing Places |
+| Grok | X presence + real-time signals (US share grew 1.9% to 17.8% in a year; start tracking) |
 
-### Key Stat: Only 11% of domains are cited by both ChatGPT and Google AIO for the same query. Optimizing for one doesn't automatically cover the other.
+### Key Stat: Only ~11% of domains are cited by both ChatGPT and Perplexity for the same queries. Optimizing for one doesn't automatically cover the other.
+
+(Meta AI has 1.2B MAU but near-zero referral traffic. It lives inside messaging apps. Ignore for AEO.)

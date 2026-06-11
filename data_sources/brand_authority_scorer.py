@@ -12,9 +12,12 @@ than backlinks.
 Platform weights (correlation-based):
     YouTube:    25% (0.737 correlation with AI citation)
     Reddit:     25% (highest-cited domain across ChatGPT + Perplexity)
-    Wikipedia:  20% (47.9% of ChatGPT citations)
+    Wikipedia:  20% (top single ChatGPT citation domain, ~13.2% per 5W May 2026)
     LinkedIn:   15% (professional authority signal)
     Other:      15% (Crunchbase, G2, industry directories, podcasts)
+
+Stats refreshed 2026-06-11. Citation-share numbers are volatile; re-verify
+quarterly before quoting in client deliverables.
 
 Adapted from zubair-trabzada/geo-seo-claude brand authority formula,
 integrated into the AEO Machine visibility layer.
@@ -355,8 +358,8 @@ def score_other_platforms(data: dict) -> int:
 
 BRAND_WEIGHTS = {
     "youtube":   0.25,  # 0.737 correlation with AI citation (Ahrefs Dec 2025)
-    "reddit":    0.25,  # #1 cited domain on Perplexity (46.7%), #2 on ChatGPT (11.3%)
-    "wikipedia": 0.20,  # 47.9% of ChatGPT citations come from Wikipedia
+    "reddit":    0.25,  # top-cited on Perplexity (~47% of top-10, volatile); ~12.0% of ChatGPT citations (5W May 2026)
+    "wikipedia": 0.20,  # top single ChatGPT citation domain, ~13.2% (5W May 2026; was widely quoted at 47.9% in 2025)
     "linkedin":  0.15,  # professional authority signal
     "other":     0.15,  # directories, press, podcasts, Crunchbase, G2
 }
@@ -448,13 +451,14 @@ def _brand_recommendations(platforms: dict) -> list[str]:
             )
         elif key == "reddit" and p["score"] < 40:
             recs.append(
-                "Reddit is the #1 cited domain on Perplexity (46.7% of citations). "
+                "Reddit is the top-cited domain on Perplexity and top-2 on ChatGPT. "
                 "Start authentic engagement in 2-3 subreddits where your customers ask questions."
             )
         elif key == "wikipedia" and p["score"] < 40:
             recs.append(
-                "Wikipedia accounts for 47.9% of ChatGPT citations. "
-                "If you qualify for a page, this is high-leverage. Start with Wikidata entry."
+                "Wikipedia is the single most-cited domain on ChatGPT (~13% of US citations, "
+                "5W May 2026). If you qualify for a page, this is high-leverage. Start with "
+                "a Wikidata entry."
             )
         elif key == "linkedin" and p["score"] < 40:
             recs.append(

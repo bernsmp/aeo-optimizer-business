@@ -95,12 +95,12 @@ def _summarize_state(crawl_data: dict, schema_analysis: dict, site_analysis: dic
     else:
         parts.append("No llms.txt file")
 
-    # AI crawler access
+    # AI crawler access (search-tier bots gate AI search visibility)
     robots = crawl_data.get("robots_txt")
     if robots:
         import re
         blocked = []
-        for bot in ["GPTBot", "ClaudeBot", "PerplexityBot"]:
+        for bot in ["GPTBot", "OAI-SearchBot", "ClaudeBot", "Claude-SearchBot", "PerplexityBot"]:
             pattern = rf"User-agent:\s*{re.escape(bot)}.*?Disallow:\s*/"
             if re.search(pattern, robots, re.I | re.S):
                 blocked.append(bot)
@@ -108,6 +108,15 @@ def _summarize_state(crawl_data: dict, schema_analysis: dict, site_analysis: dic
             parts.append(f"AI crawlers blocked: {', '.join(blocked)}")
         else:
             parts.append("AI crawlers are not blocked in robots.txt")
+
+    # Edge/CDN-level filtering (overrides robots.txt)
+    access_check = crawl_data.get("ai_access_check") or {}
+    if access_check.get("edge_filtering_detected"):
+        blocked_agents = ", ".join(access_check.get("blocked_agents", []))
+        parts.append(
+            f"WARNING: edge/CDN-level AI filtering detected ({blocked_agents} get blocked "
+            "while normal traffic passes) -- verify in the CDN dashboard"
+        )
 
     return ". ".join(parts) + "."
 
@@ -139,7 +148,7 @@ def _build_gap_analysis(schema_analysis: dict, site_analysis: dict, score_result
 
     # Dimension gaps
     dims = score_result.get("dimensions", {})
-    weak_dims = [(k, d) for k, d in dims.items() if d["score"] < 50]
+    weak_dims = [(k, d) for k, d in dims.items() if d.get("measured", True) and d["score"] < 50]
     if weak_dims:
         lines.append("### Weakest Dimensions")
         lines.append("")
@@ -204,10 +213,21 @@ def _build_full_report(
     ])
 
     for key, dim in dims.items():
-        weighted = round(dim["score"] * dim["weight"], 1)
-        lines.append(f"| {dim['label']} | {int(dim['weight'] * 100)}% | {dim['score']}/100 | {weighted} |")
+        if dim.get("measured", True):
+            weighted = round(dim["score"] * dim["weight"], 1)
+            lines.append(f"| {dim['label']} | {int(dim['weight'] * 100)}% | {dim['score']}/100 | {weighted} |")
+        else:
+            lines.append(f"| {dim['label']} | {int(dim['weight'] * 100)}% | not measured | n/a |")
 
     lines.append(f"| **TOTAL** | **100%** | | **{composite}** |")
+
+    unmeasured_labels = [d["label"] for d in dims.values() if not d.get("measured", True)]
+    if unmeasured_labels:
+        lines.append("")
+        lines.append(
+            f"*Composite renormalized over measured dimensions "
+            f"(not measured: {', '.join(unmeasured_labels)}).*"
+        )
     lines.extend(["", "---", ""])
 
     # Current state details
@@ -405,6 +425,7 @@ def run_audit(
     max_pages: int = 30,
     client_slug: str = "",
     quiet: bool = False,
+    brand_data_path: str = "",
 ) -> dict:
     """Run the full AEO audit pipeline.
 
@@ -462,9 +483,28 @@ def run_audit(
     else:
         log(f"  Citability analysis skipped: {citability_result.get('error')}")
 
+    # Optional: brand authority from manually-collected platform data
+    # (off-site mentions are the strongest measured AI-citation correlate)
+    brand_authority = None
+    if brand_data_path:
+        try:
+            from brand_authority_scorer import score_brand_authority
+            with open(brand_data_path) as f:
+                platform_data = json.load(f)
+            brand_authority = score_brand_authority(
+                youtube_data=platform_data.get("youtube"),
+                reddit_data=platform_data.get("reddit"),
+                wikipedia_data=platform_data.get("wikipedia"),
+                linkedin_data=platform_data.get("linkedin"),
+                other_data=platform_data.get("other"),
+            )
+            log(f"  Brand authority score: {brand_authority['composite_score']}/100")
+        except Exception as exc:
+            log(f"  Brand authority scoring failed: {exc}")
+
     # Score
     log("\nScoring...")
-    score_result = score_site(crawl_data, schema_analysis, citation_data)
+    score_result = score_site(crawl_data, schema_analysis, citation_data, brand_authority)
     log(f"  Composite score: {score_result['composite_score']}/100 (Grade: {score_result['grade']})")
 
     # Build report
@@ -503,6 +543,7 @@ def run_audit(
             "types_missing": site_analysis.get("important_types_missing", []),
         },
         "citation_score": citation_data.get("overall_score") if citation_data else None,
+        "brand_authority_score": brand_authority.get("composite_score") if brand_authority else None,
         "report": report,
     }
 
@@ -595,18 +636,49 @@ def _save_to_client_folder(
     if not os.path.exists(robots_path):
         robots_content = """# Recommended robots.txt additions for AI crawler access
 # Add these to your existing robots.txt
+#
+# The AI bot fleet has three tiers (June 2026). SEARCH and USER tiers
+# gate your visibility in AI answers -- allow them. TRAINING tier is a
+# business/licensing decision; allowing it builds long-term model memory.
+#
+# NOTE: if you're behind Cloudflare, also check AI Crawl Control --
+# Cloudflare default-blocks unverified AI crawlers regardless of
+# robots.txt.
 
-# Allow AI search crawlers
+# --- SEARCH-INDEX crawlers (gate AI search visibility -- allow) ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# --- USER-INITIATED fetchers (a human asked the AI to read your page) ---
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- TRAINING crawlers (long-term model memory -- recommended: allow) ---
 User-agent: GPTBot
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: Google-Extended
 Allow: /
 
-User-agent: Google-Extended
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
 Allow: /
 
 # Reference your sitemap
@@ -637,6 +709,7 @@ Examples:
     parser.add_argument("--citations", action="store_true", help="Run AI citation checks (slower)")
     parser.add_argument("--pages", type=int, default=30, help="Max pages to crawl (default: 30)")
     parser.add_argument("--client", default="", help="Client slug for saving to client folder")
+    parser.add_argument("--brand-data", default="", help="Path to JSON with platform data for brand authority scoring (keys: youtube, reddit, wikipedia, linkedin, other)")
     parser.add_argument("--json", action="store_true", help="Output raw JSON data")
     parser.add_argument("--quiet", action="store_true", help="Suppress progress messages")
 
@@ -650,6 +723,7 @@ Examples:
         max_pages=args.pages,
         client_slug=args.client,
         quiet=args.quiet,
+        brand_data_path=args.brand_data,
     )
 
     if args.json:

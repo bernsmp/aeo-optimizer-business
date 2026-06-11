@@ -43,14 +43,16 @@ Score
 
 | Dimension | Weight | Last Month | This Month | Delta | Trend |
 |-----------|--------|-----------|------------|-------|-------|
-| Schema Coverage | 25% | {{PREV_SCHEMA}}/100 | {{CURR_SCHEMA}}/100 | {{D_SCHEMA}} | {{T_SCHEMA}} |
-| FAQ Quality | 20% | {{PREV_FAQ}}/100 | {{CURR_FAQ}}/100 | {{D_FAQ}} | {{T_FAQ}} |
-| Citability | 15% | {{PREV_CITE}}/100 | {{CURR_CITE}}/100 | {{D_CITE}} | {{T_CITE}} |
-| Structured Data | 15% | {{PREV_SD}}/100 | {{CURR_SD}}/100 | {{D_SD}} | {{T_SD}} |
-| llms.txt | 10% | {{PREV_LLMS}}/100 | {{CURR_LLMS}}/100 | {{D_LLMS}} | {{T_LLMS}} |
-| robots.txt | 5% | {{PREV_ROBOTS}}/100 | {{CURR_ROBOTS}}/100 | {{D_ROBOTS}} | {{T_ROBOTS}} |
-| Content Clarity | 5% | {{PREV_CC}}/100 | {{CURR_CC}}/100 | {{D_CC}} | {{T_CC}} |
-| AI Mentions | 5% | {{PREV_AI}}/100 | {{CURR_AI}}/100 | {{D_AI}} | {{T_AI}} |
+| Citability & Structure | 20% | {{PREV_CITE}}/100 | {{CURR_CITE}}/100 | {{D_CITE}} | {{T_CITE}} |
+| AI Mentions | 15% | {{PREV_AI}}/100 | {{CURR_AI}}/100 | {{D_AI}} | {{T_AI}} |
+| Off-Site Authority | 15% | {{PREV_AUTH}}/100 | {{CURR_AUTH}}/100 | {{D_AUTH}} | {{T_AUTH}} |
+| Schema & Structured Data | 15% | {{PREV_SCHEMA}}/100 | {{CURR_SCHEMA}}/100 | {{D_SCHEMA}} | {{T_SCHEMA}} |
+| Answer Content (FAQ) | 10% | {{PREV_FAQ}}/100 | {{CURR_FAQ}}/100 | {{D_FAQ}} | {{T_FAQ}} |
+| AI Crawler Access | 10% | {{PREV_CRAWL}}/100 | {{CURR_CRAWL}}/100 | {{D_CRAWL}} | {{T_CRAWL}} |
+| Freshness Signals | 10% | {{PREV_FRESH}}/100 | {{CURR_FRESH}}/100 | {{D_FRESH}} | {{T_FRESH}} |
+| llms.txt | 5% | {{PREV_LLMS}}/100 | {{CURR_LLMS}}/100 | {{D_LLMS}} | {{T_LLMS}} |
+
+*Rubric rebalanced 2026-06-11. First report after the rebalance: re-baseline rather than compare deltas against pre-rebalance scores.*
 
 **Trend key:** Improving / Stable / Declining
 
@@ -83,14 +85,18 @@ Score
 
 ## AI Crawler Access
 
-| Crawler | User Agent | Status | Change |
-|---------|-----------|--------|--------|
-| OpenAI (GPTBot) | GPTBot | {{GPTBOT_STATUS}} | {{GPTBOT_CHANGE}} |
-| OpenAI Search | OAI-SearchBot | {{OAI_STATUS}} | {{OAI_CHANGE}} |
-| Anthropic | ClaudeBot | {{CLAUDE_STATUS}} | {{CLAUDE_CHANGE}} |
-| Google AI | Google-Extended | {{GOOGLE_STATUS}} | {{GOOGLE_CHANGE}} |
-| Perplexity | PerplexityBot | {{PERP_STATUS}} | {{PERP_CHANGE}} |
-| Common Crawl | CCBot | {{CC_STATUS}} | {{CC_CHANGE}} |
+| Crawler | User Agent | Tier | Status | Change |
+|---------|-----------|------|--------|--------|
+| OpenAI Search | OAI-SearchBot | Search | {{OAI_STATUS}} | {{OAI_CHANGE}} |
+| Anthropic Search | Claude-SearchBot | Search | {{CLAUDESEARCH_STATUS}} | {{CLAUDESEARCH_CHANGE}} |
+| Perplexity | PerplexityBot | Search | {{PERP_STATUS}} | {{PERP_CHANGE}} |
+| OpenAI (user fetch) | ChatGPT-User | User | {{GPTUSER_STATUS}} | {{GPTUSER_CHANGE}} |
+| Anthropic (user fetch) | Claude-User | User | {{CLAUDEUSER_STATUS}} | {{CLAUDEUSER_CHANGE}} |
+| OpenAI (training) | GPTBot | Training | {{GPTBOT_STATUS}} | {{GPTBOT_CHANGE}} |
+| Anthropic (training) | ClaudeBot | Training | {{CLAUDE_STATUS}} | {{CLAUDE_CHANGE}} |
+| Google AI (training) | Google-Extended | Training | {{GOOGLE_STATUS}} | {{GOOGLE_CHANGE}} |
+| Common Crawl | CCBot | Training | {{CC_STATUS}} | {{CC_CHANGE}} |
+| Edge/CDN filtering | (differential test) | All | {{EDGE_STATUS}} | {{EDGE_CHANGE}} |
 
 ---
 
