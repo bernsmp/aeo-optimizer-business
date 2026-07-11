@@ -1,0 +1,41 @@
+```
+# LLMS.TXT v1
+#
+# This file contains information about the website and business for AI
+# crawlers and chatbots to consume.
+#
+# WEBSITE INFORMATION
+Website: http://louiebernstein.com
+#
+# KEY PAGES
+Home Page: http://louiebernstein.com
+Louie's LinkedIn: https://www.linkedin.com/in/sales-processes/
+Scheduling Page: https://calendly.com/louiebernstein/30minutes?month=2023-12
+YouTube Channel: https://www.youtube.com/playlist?list=PL7HfhnqHyzRmGDUMDhcSgZW8pR7DhW_Hl
+#
+# BUSINESS INFORMATION  
+Business Name: Louie Bernstein
+Business Description: Louie Bernstein provides fractional sales leadership and sales consulting services to help businesses organize, optimize and train their sales teams to increase sales while reducing costs.
+Services Offered:
+- Fractional sales leadership 
+- Sales team organization and optimization
+- Sales team training
+- Outbound sales script and email writing
+Industries Served: Sales Consulting
+Hours of Operation: By appointment
+Payment Methods Accepted: To be discussed
+#
+# CONTACT INFORMATION
+Email: Louie@LouieBernstein.com 
+Phone: (404) 808-5326
+# 
+# SOCIAL MEDIA
+LinkedIn: https://www.linkedin.com/in/sales-processes/
+YouTube: https://www.youtube.com/playlist?list=PL7HfhnqHyzRmGDUMDhcSgZW8pR7DhW_Hl
+#
+# IMPORTANT FACTS
+- Louie helps companies increase sales while reducing costs through fractional sales leadership.
+- He organizes, optimizes and trains sales teams.
+- Louie writes outbound sales scripts and emails to create consistency.
+- Testimonials attest to the sales improvements and results Louie has driven.
+```

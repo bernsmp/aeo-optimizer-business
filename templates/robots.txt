@@ -1,24 +1,54 @@
+# robots.txt template: AI crawler access (June 2026 tiers)
+#
+# The AI bot fleet split into three tiers with independent user-agents.
+# SEARCH and USER tiers gate visibility in AI answers. Allow them.
+# TRAINING tier is a business/licensing decision. Allowing it builds
+# long-term model memory (recommended for most clients).
+#
+# NOTE: if the site is behind Cloudflare, also check AI Crawl Control.
+# Cloudflare default-blocks unverified AI crawlers regardless of robots.txt.
+
 User-agent: *
 Allow: /
 
-# AI Crawlers - Explicitly allow
-User-agent: GPTBot
+# --- SEARCH-INDEX crawlers (gate AI search visibility) ---
+User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Claude-Web
+# --- USER-INITIATED fetchers (a human asked the AI to read the page) ---
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- TRAINING crawlers (long-term model memory) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
 # Sitemap
-Sitemap: https://themotherhoodanthology.com/sitemap.xml
+Sitemap: https://YOURDOMAIN.com/sitemap.xml
 
 # Disallow admin/checkout areas
 Disallow: /wp-admin/

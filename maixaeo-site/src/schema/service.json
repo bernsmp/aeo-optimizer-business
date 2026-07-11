@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://maixaeo.com/#service",
+  "name": "Answer Engine Optimization (AEO) Services",
+  "description": "Three-layer AEO framework: Technical Foundation, Visibility Strategy, and Brand Authority. Helping early-stage companies win visibility in AI-powered search engines.",
+  "provider": {
+    "@id": "https://maixaeo.com/#organization"
+  },
+  "areaServed": "Worldwide",
+  "serviceType": "Answer Engine Optimization",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "AEO Service Packages",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Technical AEO Foundation",
+          "description": "Layer 1: Schema markup, AI crawler optimization, JavaScript rendering analysis, technical audits"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Visibility Strategy",
+          "description": "Layer 2: Citations, mentions, PR, off-property content, visibility tracking"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Complete Framework",
+          "description": "All three layers: Technical Foundation, Visibility Strategy, and Brand Authority"
+        }
+      }
+    ]
+  }
+}

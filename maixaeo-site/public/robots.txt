@@ -1,0 +1,31 @@
+# robots.txt for maixAEO.com
+# Optimized for AI crawlers (Layer 1: Technical AEO Foundation)
+
+# Allow all AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Standard search engines
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://maixaeo.com/sitemap.xml
